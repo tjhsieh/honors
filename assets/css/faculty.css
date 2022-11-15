@@ -1,0 +1,102 @@
+/*
+  https://www.w3schools.com/howto/howto_css_thumbnail.asp
+
+  Images thrown on the table
+
+  https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_image_gallery
+
+  https://www.w3schools.com/howto/howto_css_clearfix.asp
+*/
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+
+
+
+div.polaroid {
+    width: 128px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 0px;
+    font-family: 'cwTeXKai', serif;
+    text-align: center;
+}
+
+div.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+
+div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+#container{
+    overflow: auto;
+}
+
+/* http://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/ */
+/* div.rotate_right { */
+#container div:nth-child(odd) {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+
+/* div.rotate_left { */
+#container div:nth-child(even) {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    height: auto;
+}
+
+#redbuilding {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: none;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* ------------------------------------------------ */
+
+div {
+    border: solid black 1px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#BlueFolder {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#drop_zone {
+    border: 2px dashed #bbb;
+    border-radius: 25px;
+}
+
+/* ------------------------------------------------ */
+

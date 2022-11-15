@@ -1,0 +1,1033 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+        h3 {
+            background-color: rgba(255, 255, 0, 0.1);
+            color: white; 
+            text-shadow: 0 0 6px #FF0000, 0 0 6px #000000;
+            font-family: 'Noto Serif JP', serif;
+            font-size: 18pt;
+            border: solid 1px black;
+            width: 90%;
+            margin: 5px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        div {
+            background-color: rgba(255, 255, 0, 0.1);
+            font-family: 'Noto Serif JP', serif;
+            font-size: 18pt;
+            border: solid 1px black;
+            width: 90%;
+            margin: 5px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        body {
+            background-color: rgba(255, 128, 255, 0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px black solid;
+            font: 18pt sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        td,
+        th {
+            border: 1px black solid;
+            padding: 5px;
+            background-color: rgba(128, 255, 255, 0.1);
+        }
+
+        td img {
+            transition: width, height;
+            transition-duration: 0.5s;
+            width: 50px;
+            height: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+
+        /*
+        .excellent-kid {
+            background-color: skyblue;
+        }
+
+        .good-kid {
+            background-color: pink;
+        }
+
+        .fair-kid {
+            background-color: pink;
+        }
+
+        .poor-kid {
+            background-color: pink;
+        }
+        */
+
+        td:hover img {
+            transition: width, height;
+            transition-duration: 0.5s;
+            width: 100px;
+            height: 100px;
+        }
+
+        td.excellent-kid:hover img {
+            animation-name: happy;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        td.good-kid:hover img {
+            animation-name: happy;
+            animation-duration: 1.0s;
+            animation-iteration-count: infinite;
+        }
+
+        td.fair-kid:hover img {
+            animation-name: angry;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+
+        td.poor-kid:hover img {
+            animation-name: angry;
+            animation-duration: 0.1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes happy {
+            0% {
+                transform: translateY(0px);
+            }
+
+            25% {
+                transform: translateY(-5px);
+            }
+
+            50% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        @keyframes angry {
+            0% {
+                transform: translate(1px, 3px);
+            }
+
+            25% {
+                transform: translate(7px, 2px);
+            }
+
+            50% {
+                transform: translate(4px, 5px);
+            }
+
+            75% {
+                transform: translate(12px, 3px);
+            }
+
+            100% {
+                transform: translate(2px, 0px);
+            }
+        }
+
+        /* 波浪 */
+        /* https://www.zhangxinxu.com/wordpress/2013/02/study-span-a-element-keyboard-focusable-clickable/ */
+        a {
+          color:#f30;
+          /*
+          text-decoration:underline;
+          padding:2px 0;
+          */
+          font-size: 18pt;
+          text-decoration: none; 
+          background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23ff3300' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E") repeat-x 0 100%; 
+          background-size:18pt auto; 
+          animation: waveMove 1s infinite linear;
+        }
+
+        @keyframes waveMove {
+          from { background-position:0 100%; }
+          to { background-position:20px 100%; }
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        電資學士班 大二 (三電一工) 課程 主修領域 必修、選修 一覽表
+        <hr>
+        (僅供參考、以入學年度「<a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-1">課程標準</a>」為主)
+    </h3>
+
+    <div>
+        <a href="https://aps.ntut.edu.tw/course/tw/course.jsp">課程系統</a>
+        
+        <table>
+            <tr>
+                <td class="excellent-kid">必修<img src="./a1455014.svg" x="0" y="0" width="60" height="60"></td>
+                <td class="poor-kid">選修<img src="./a1455014_red.svg" x="0" y="0" width="240" height="240">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>
+            </tr>
+            <tr>
+                <td rowspan="5">二上</td>
+                <td>電路學(一)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>電子學(一)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(一) (微分方程)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">二下</td>
+                <td>電路學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(二) (高等工程數學)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <h3>
+        大二 (三電一工) 課程 主修領域 必修、選修 一覽表
+        <hr>
+        (僅供參考、以入學年度「<a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-1">課程標準</a>」為主)
+    </h3>
+
+    <div>
+        <a href="https://aps.ntut.edu.tw/course/tw/course.jsp">課程系統</a>
+        
+        <table>
+            <tr>
+                <td class="excellent-kid">必修<img src="./a1455014.svg" x="0" y="0" width="60" height="60"></td>
+                <td class="poor-kid">選修<img src="./a1455014_red.svg" x="0" y="0" width="240" height="240">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=310">電機</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=360">電子</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=590">資工</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=650">光電</a></td>
+            </tr>
+            <tr>
+                <td rowspan="5">二上</td>
+                <td>電路學(一)</td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td> -->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td> -->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>電子學(一)</td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(一)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(一)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(一) (微分方程)</td>
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="5">二下</td>
+                <td>電路學(二)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學(二)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>                
+            </tr>
+            <tr>
+                <td>電子學實習(二)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>-->
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(二)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(二) (高等工程數學)</td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+<!--                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>-->
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <h3>
+        電資學士班 大二 (三電一工) 課程 主修領域 必修、選修 一覽表
+        <hr>
+        (僅供參考、以入學年度「<a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-1">課程標準</a>」為主)
+    </h3>
+
+    <div>
+        <a href="https://aps.ntut.edu.tw/course/tw/course.jsp">課程系統</a>
+        
+        <table>
+            <tr>
+                <td class="excellent-kid">必修<img src="./a1455014.svg" x="0" y="0" width="60" height="60"></td>
+                <td class="poor-kid">選修<img src="./a1455014_red.svg" x="0" y="0" width="240" height="240">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=310">電機</a></td>
+
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=360">電子</a></td>
+
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=590">資工</a></td>
+
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>                
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=650">光電</a></td>
+            </tr>
+            <tr>
+                <td rowspan="5">二上</td>
+                <td>電路學(一)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>電子學(一)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(一) (微分方程)</td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="5">二下</td>
+                <td>電路學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>                
+            </tr>
+            <tr>
+                <td>電子學實習(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="poor-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(二) (高等工程數學)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>
+        電資學士班 大一、大二 課程 主修領域 必修、選修 一覽表
+        <hr>
+        (僅供參考、以入學年度「<a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-1">課程標準</a>」為主)
+    </h3>
+
+    <div>
+        <a href="https://aps.ntut.edu.tw/course/tw/course.jsp">課程系統</a>
+        
+        <table>
+            <tr>
+                <td class="excellent-kid">必修<img src="./a1455014.svg" x="0" y="0" width="60" height="60"></td>
+                <td class="poor-kid">選修<img src="./a1455014_red.svg" x="0" y="0" width="240" height="240">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>
+            </tr>
+            <tr>
+                <td rowspan="3">一上</td>
+                <td>數位邏輯設計</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>計算機程式語言</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機概論</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">一下</td>
+                <td>線性代數</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>物件導向程式設計</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>微算機系統</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+
+        <hr>
+        
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>
+            </tr>
+            <tr>
+                <td rowspan="7">二上</td>
+                <td>電路學(一)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>電子學(一)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(一) (微分方程)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>離散數學</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>訊號與系統</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+
+
+            <tr>
+                <td rowspan="9">二下</td>
+                <td>電路學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(二) (高等工程數學)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機組織</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>資料結構</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>機率</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機演算法</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>複變函數</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+
+    <h3>
+        電資學士班 大一、大二 課程 主修領域 必修、選修 授課老師 一覽表
+        <hr>
+        (僅供參考、以入學年度「<a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-1">課程標準</a>」為主)
+    </h3>
+
+    <div>
+        <a href="https://aps.ntut.edu.tw/course/tw/course.jsp">課程系統</a>
+        
+        <table>
+            <tr>
+                <td class="excellent-kid">必修<img src="./a1455014.svg" x="0" y="0" width="60" height="60"></td>
+                <td class="poor-kid">選修<img src="./a1455014_red.svg" x="0" y="0" width="240" height="240">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>
+            </tr>
+            <tr>
+                <td rowspan="3">一上</td>
+                <td>數位邏輯設計</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">譚巽言</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>計算機程式語言</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">謝</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機概論</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">尤信程</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">一下</td>
+                <td>線性代數</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">楊士萱</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>物件導向程式設計</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">鄭有進</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>微算機系統</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">譚巽言</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+
+        <hr>
+        
+        <table>
+            <tr>
+                <td>學年</td>
+                <td>課程</td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=821">電資【電機】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=822">電資【電子】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=823">電資【資工】</a></td>
+                <td><a href="https://aps.ntut.edu.tw/course/tw/Cprog.jsp?format=-4&year=110&matric=7&division=824">電資【光電】</a></td>
+            </tr>
+            <tr>
+                <td rowspan="8">二上</td>
+                <td>電路學(一)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">胡國英<br>(資工二合開)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>幾何光學</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">吳俊傑<br>(光電二合開)</td>
+            </tr>
+            <tr>
+                <td>電子學(一)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">張俊明</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">于治平</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電磁學(一)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">王紳</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(一) (微分方程)</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">楊濠瞬<br>(光電二合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>離散數學</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">潘孟鉉</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>訊號與系統</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">譚旦旭<br>(資工三合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+
+
+            <tr>
+                <td rowspan="10">二下</td>
+                <td>電路學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">胡國英</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">宋國明</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>電子學實習(二)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">于治平
+</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>工程數學(二) (高等工程數學)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">曾柏軒<br>(電子二甲合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機組織</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">黃士嘉</td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>資料結構</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014.svg" width="50" height="50">劉傳銘</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>機率</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">吳和庭</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>計算機演算法</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">蕭榮修<br>(資工三合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>複變函數</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">陳盛有<br>(電子三四甲乙合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+
+            <tr>
+                <td>多媒體技術與應用</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50">陳彥霖<br>(資工二合開)</td>
+                <td class="good-kid"><img src="./a1455014_red.svg" width="50" height="50"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+</body></html>
