@@ -1,0 +1,165 @@
+{
+ "name": "faculty 電資學士班課程師資",
+ "children": [
+  {
+   "name": "師資：電機工程系",
+   "children": [
+    {
+     "name": "林鈞陶",
+     "children": [
+      {"name": "大學入門與工程倫理", "size": 99000},
+      {"name": "訊號與系統", "size": 99000}
+     ]
+    },
+    {
+     "name": "于治平",
+     "children": [
+      {"name": "電子學實習(一)", "size": 88000},
+      {"name": "電子學實習(二)", "size": 88000}
+     ]
+    },
+    {
+     "name": "蕭榮修",
+     "children": [
+      {"name": "離散數學", "size": 66000},
+      {"name": "計算機演算法", "size": 88000}
+     ]
+    },
+    {
+     "name": "曾柏軒",
+     "children": [
+      {"name": "高等工程數學", "size": 88000},
+      {"name": "", "size": 66000}
+     ]
+    },
+    {
+     "name": "陳盛有",
+     "children": [
+      {"name": "複變函數", "size": 66000},
+      {"name": "", "size": 36000}
+     ]
+    },
+    {
+     "name": "黃士嘉",
+     "children": [
+      {"name": "計算機組織", "size": 88000},
+      {"name": "", "size": 66000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "師資：電子工程系",
+   "children": [
+    {
+     "name": "譚巽言",
+     "children": [
+      {"name": "數位邏輯設計", "size": 88000},
+      {"name": "", "size": 36000}
+     ]
+    },
+    {
+     "name": "楊濠瞬",
+     "children": [
+      {"name": "微分方程", "size": 36000},
+      {"name": "", "size": 24000}
+     ]
+    },
+    {
+     "name": "王紳",
+     "children": [
+      {"name": "電磁學(一)", "size": 36000},
+      {"name": "電磁學(二)", "size": 36000}
+     ]
+    },
+    {
+     "name": "劉玉蓀",
+     "children": [
+      {"name": "機率", "size": 36000},
+      {"name": "", "size": 24000}
+     ]
+    },
+    {
+     "name": "高立人",
+     "children": [
+      {"name": "微算機系統", "size": 66000},
+      {"name": "", "size": 36000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "師資：資訊工程系",
+   "children": [
+    {
+     "name": "謝東儒",
+     "children": [
+      {"name": "電機資訊科技", "size": 99000},
+      {"name": "計算機程式語言", "size": 99000}
+     ]
+    },
+    {
+     "name": "陳彥霖",
+     "children": [
+      {"name": "大學入門與工程倫理", "size": 99000},
+      {"name": "", "size": 88000}
+     ]
+    },
+    {
+     "name": "白敦文",
+     "children": [
+      {"name": "計算機概論", "size": 66000},
+      {"name": "", "size": 36000}
+     ]
+    },
+    {
+     "name": "楊士萱",
+     "children": [
+      {"name": "線性代數", "size": 66000},
+      {"name": "", "size": 36000}
+     ]
+    },
+    {
+     "name": "鄭有進",
+     "children": [
+      {"name": "物件導向程式設計", "size": 88000},
+      {"name": "", "size": 88000}
+     ]
+    },
+    {
+     "name": "劉傳銘",
+     "children": [
+      {"name": "資料結構", "size": 66000},
+      {"name": "", "size": 36000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "師資：光電工程系",
+   "children": [
+    {
+     "name": "李金連",
+     "children": [
+      {"name": "物理", "size": 66000},
+      {"name": "物理實驗", "size": 66000}
+     ]
+    },
+    {
+     "name": "吳俊傑",
+     "children": [
+      {"name": "幾何光學", "size": 36000},
+      {"name": "", "size": 24000}
+     ]
+    },
+    {
+     "name": "陳堯輝",
+     "children": [
+      {"name": "光電工程概論", "size": 36000},
+      {"name": "", "size": 24000}
+     ]
+    }
+   ]
+  }
+ ]
+}
