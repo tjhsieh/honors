@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" width="512" viewBox="0 0 512 512">
+
+ <!--color define-->
+  <defs>
+  <linearGradient id="tail_color">
+    <stop offset="0%" style="stop-color: #AD0006" />
+    <stop offset="60%" style="stop-color: #ff9a9e" />
+  </linearGradient>
+  </defs>
+
+  <defs>
+  <linearGradient id="antenna_color">
+    <stop offset="0%" style="stop-color: #ff9a9e" />
+    <stop offset="60%" style="stop-color: #AD0006" />
+  </linearGradient>
+  </defs>
+
+
+
+<!--底圖白色遮罩-->
+<!--網格格線-->
+
+
+<!--中心位置-->
+
+<!--電仔--> 
+ <!--頭-->
+  <path d="M192 0 Q145 70, 200 64 T194 125" stroke="url(#antenna_color)" fill="none" stroke-width="13" id="antenna"/>
+  <rect x="3" y="120" fill="#ff9a9e" stroke="#AD0006" stroke-width="10" width="385" height="264"/>
+  <path d="M3 235 H110" stroke="#5F403B" stroke-width="10"/>
+  <path d="M279 235 h110" stroke="#5F403B" stroke-width="10"/>
+  <path d="M170 325 Q192 380, 218 325" stroke="#5F403B" fill="none" stroke-width="10"/>
+ <!--身體-->
+  <path d="M134 410 A52 20, -42, 0, 0, 120 480" stroke="#AD0006" fill="#ff9a9e" stroke-width="10"/>
+  <path d="M146 384 A64 104, 0, 0, 0, 128 448" stroke="#AD0006" fill="#none" stroke-width="10"/>
+  <path d="M158 486 h70" stroke="#AD0006" stroke-width="10"/>
+  <path d="M255 410 A52 20, 45, 0, 1, 265 480" stroke="#AD0006" fill="#ff9a9e" stroke-width="10"/>
+  <path d="M243 384 A64 90, 0, 0, 1, 258 448" stroke="#AD0006" fill="none" stroke-width="10"/>
+  <ellipse stroke="#AD0006" fill="#ff9a9e" stroke-width="10" cx="140" cy="471" rx="24" ry="30" transform="rotate(-20,140,471)"/>
+  <ellipse  stroke="#AD0006" fill="#ff9a9e" stroke-width="10" cx="245" cy="471" rx="24" ry="30" transform="rotate(20,245,471)"/>
+<!--衣服logo-->
+  <path d="M210 408 H180" stroke="#5F403B" stroke-width="10"/>
+  <path d="M205 428 H180" stroke="#5F403B" stroke-width="10"/>
+  <path d="M210 448 H180" stroke="#5F403B" stroke-width="10"/>
+  <path d="M180 453 V403" stroke="#5F403B" stroke-width="10"/>
+<!--尾巴-->
+  <path d="M448 365 l10 -22" stroke="#5F403B" stroke-width="8"/>
+  <path d="M460 370 l10 -22" stroke="#5F403B" stroke-width="8"/>
+  <path d="M435 354 A10 12, 0, 0, 0, 475 370z" stroke-width="10" stroke="#AD0006" fill="url(#tail_color)"/>
+  <path d="M274 425 q75 -33, 100 0 T445 390" stroke="url(#tail_color)" fill="none" stroke-width="10" id="tail"/>
+  <path d="M432 306 q-10 26, 5 20 t-2 17" stroke="#FFEF4A" fill="none" stroke-width="10"/>
+  <path d="M510 330 q-28 5, -15 10 t-15 15" stroke="#FFEF4A" fill="none" stroke-width="10"/>
+<!--文字動畫-->
+  <text id="t1" style="font-size:16px; writing-mode:tb; fill:none; stroke:#FFEF4A;"
+     y="10" x="0">電仔⚡<animateMotion rotate="auto" repeatCount="indefinite" dur="1.5s" >
+          <mpath xlink:href="#tail" />
+        </animateMotion>
+  </text>
+</svg>
+    

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" width="512" viewBox="0 0 512 512">
+
+
+  
+
+  <!-- electro path -->
+
+  <!-- 漸層 -->
+  <defs>
+   <linearGradient id="yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+     <stop offset="5%" stop-color="#FFD306" />
+     <stop offset="95%" stop-color="#FF8000" />
+   </linearGradient>
+  </defs>
+  <defs>
+   <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+     <stop offset="5%" stop-color="#FFA042" />
+     <stop offset="95%" stop-color="#D26900" />
+   </linearGradient>
+  </defs>
+  <defs>
+   <linearGradient id="gray" x1="0%" y1="0%" x2="100%" y2="100%">
+     <stop offset="5%" stop-color="#ADADAD" />
+     <stop offset="95%" stop-color="#272727" />
+   </linearGradient>
+  </defs>
+
+  <!-- 臉 -->
+  <path d="M192 0 Q145 70, 200 64 T194 125" stroke="url(#yellow)" fill="none" stroke-width="3"/>
+  <rect x="3" y="120" fill="url(#yellow)" stroke="#FFD306" stroke-width="3" width="385" height="264"/>
+  <path d="M3 235 H110" stroke="#272727" stroke-width="5"/>
+  <path d="M279 235 h110" stroke="#272727" stroke-width="5"/>
+  <path d="M170 325 Q192 380, 218 325" stroke="#272727" fill="none" stroke-width="5"/>
+
+
+  <!-- 身體 -->
+  <path d="M132 410 A50 20, -45, 0, 0, 120 480" stroke="#FFD306" fill="none" stroke-width="3"/>
+  <path d="M140 384 A64 104, 0, 0, 0, 128 448" stroke="#FFD306" fill="none" stroke-width="3"/>
+  <ellipse fill="url(#yellow)" cx="140" cy="470" rx="22" ry="27"/>
+  <path d="M158 486 h70" stroke="#FF8000" stroke-width="3"/>
+  <ellipse fill="url(#orange)" cx="245" cy="470" rx="22" ry="27"/>
+  <path d="M245 384 A64 104, 0, 0, 1, 258 448" stroke="#FF8000" fill="none" stroke-width="3"/>
+  <path d="M255 410 A50 20, 45, 0, 1, 265 480" stroke="#FF8000" fill="none" stroke-width="3"/>
+
+
+  <!-- 電線 -->
+  <path d="M448 360 l10 -20" stroke="black" stroke-width="3"/>
+  <path d="M460 365 l10 -20" stroke="black" stroke-width="3"/>
+  <path d="M440 355 Q435 410, 470 370z" fill="#272727"/>
+  <path d="M277 430 q50 -30, 100 0 T445 385" stroke="url(#gray)" fill="none" stroke-width="4"/>
+  <path d="M432 310 q-5 15, 5 15 t0 15" stroke="#FFD306" fill="none" stroke-width="3"/>
+  <path d="M510 330 q-30 5, -15 10 t-15 15" stroke="#FFD306" fill="none" stroke-width="3"/>
+
+  
+</svg>
+    

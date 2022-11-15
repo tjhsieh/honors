@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" 
+  width="512" 
+  viewBox="0 0 512 512">  
+
+  <script type="text/javascript"><![CDATA[
+  var currentColor = 0;
+  var list = document.getElementsByClassName("customStrokeColor");
+    function changeColor(){
+      if (currentColor < 359){
+        currentColor = currentColor + 1;
+      }
+      else{
+        currentColor = 0;
+      }
+      var hslColor = "hsl(" + currentColor + ", 100%, 50%)"
+      for ( var i = 0; i < list.length; i++ ) {
+        list[i].setAttribute("stroke", hslColor);
+      }
+    }
+
+    window.setInterval(changeColor, 10);
+  ]]>
+  </script>
+
+
+
+  <!-- Head -->
+    <rect class="customStrokeColor" x="4" y="124" width="385" height="260" stroke="hsl(188, 100%, 50%)" fill="none" stroke-width="8"/>
+    <path class="customStrokeColor" d="M188 15, Q150 75  205 61 T197 123" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" fill="none" stroke-width="8"/>
+    <path class="customStrokeColor" d="M5 234, H110" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M284 234, H385" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M170,330 A10,10 0 0 0 215 330" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+
+  <!-- Body -->
+    <path class="customStrokeColor" d="M144 384 A30 60, 0 0 0, 130 445, M244 384 A30 60, 0 0 1, 258 445 " fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M165 487 H224" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+
+  <!-- Feet -->
+    <path class="customStrokeColor" d="M130 445 A390 100, 0 0 0, 129 483 A40 100, 0 0 0, 150 497 A30 24, 40 0 0, 162 462 A40 99, 0 0 0, 130 445 Z" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M254 443 A40 100, 0 0 0, 224 464 A40 36 0 0 0 232 495 A22 30 0 0 0 261 477 A28 27 0 0 0 253 442 Z" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+  
+  <!-- Hands -->
+    <path class="customStrokeColor" d="M 132 409 C 132 409 64 473 83 484 C 101 496 122 466 122 469" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M 255 409 C 255 409 318 468 307 483 C 296 498 264 469 264 469" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+
+  <!-- Tail -->
+    <path class="customStrokeColor" d="M 272 424 C 272 425 318 388 363 417 C 408 446 428 415 444 389" fill="none" stroke="hsl(188, 100%, 50%)" stroke-linecap="round" stroke-width="8"/>
+    <path class="customStrokeColor" d="M 439 360 C 439 360 431 382 445 386 C 460 391 468.453 374 469 371" fill="none" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+    <line class="customStrokeColor" x1="439" x2="469" y1="358" y2="371" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+    <line class="customStrokeColor" x1="457" x2="451" y1="346" y2="361" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+    <line class="customStrokeColor" x1="468" x2="462" y1="352" y2="363" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- particle -->
+    <path class="customStrokeColor" d="M 433 312 C 433 312 420 337 434 327 C 448 316 436 340 436 340" fill="none" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+    <path class="customStrokeColor" d="M 506 334 C 507 334 479 337 496 343 C 513 349 487 351 487 353" fill="none" stroke="hsl(188, 100%, 50%)" stroke-width="8" stroke-linecap="round"/>
+</svg>
