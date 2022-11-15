@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg15"
+   version="1.1"
+   height="256"
+   width="512"><metadata
+   id="metadata19">
+  <rdf:RDF>
+    <cc:Work
+       rdf:about="">
+      <dc:format>image/svg+xml</dc:format>
+      <dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      <dc:title></dc:title>
+    </cc:Work>
+  </rdf:RDF>
+</metadata>
+<rect
+   id="rect2"
+   style="fill:rgb(159, 53, 58); stroke-width:1px; stroke:rgb(159, 53, 58)"
+   height="256"
+   width="512" />
+<defs
+   id="defs5">
+  <path
+     d="M235.407 116.932v-28q-12 11-20 23-4 8-12-2-2-2-1-3 0-1 3-1 8 0 30-22v-10q0-4-1-9v-13q-30 8-39 13t-12 2q-2-1-2-2t3-2q15-5 49-14-1-1-1-3-1-6-2-8-16 1-21-1-7-1 0-2 23-2 37-9 10-4 24-1 1 1 1 2t-1 1q-14 5-33 9 1 1 3 5t4 4q62-6 77 1 14 8 21 28 1 5-1 6-2 2-5 0-11-5-17-4-10 1-27 0-18-2-31-5-5 3-13 7-5 2-7 3v16l1 17q-2 5-5 6-2 0-2-4zm7 57q-1 16 1 24 2 19 23 24 30 7 69-2 3-1 3-2l-1-2q-11-19-24-31-5-6 2-2 19 13 27 23 5 8 14 12 1 1 1 2-1 1-4 2-57 10-88 3-23-7-26-26-4-20-3-24-6 2-14 4 4 5-1 7-6 1-16-3-2-1-3-2-5-1-1-7 1-3 0-6-7-9-9-12-2-2-2-3-4-9 7-21 3-2 2 2-6 9-3 14 0 2 1 4 0 2 1 3-1 3 10 15 4 7 11 7 5-1 17-7v-17q-11 3-18 6-5 2-1-2 3-1 9-4l10-5q0-14-1-18-2 1-5 2-13 4-18 4-5 1-2-1l1-1q28-11 59-17 10-3 32 17 2 2 2 4 0 1-2 2-6 3-6 10-7 25-21 33-5 8-21-9-4-3 1-1 19 12 26 0 10-11 7-41-4-12-18-12-11 1-28 8v17q11-5 22-5 4 2 2 5-12 2-23 6-1 8-1 17 22-6 32-2 1 1 1 2-1 1-3 1-10 0-30 5zm3-125q-5 10-4 29 19-10 26-24 4-2 7 2 2 7-11 14 61 4 67-4 5-6-8-16-20-8-77-1zm-73 21v16q2 6 2 10-2 7-7 5-7 1-5-4 2-17 7-27 0-1 1-1t2 1zm83 15q11-1 34 13 2 4-4 6-6 0-11-4v-1q-3-1-5-1-3 1-3 0-1-1 1-4l-7-4q-2-1-5-3-3-1 0-2zm-28-16q3 2 4 4-1 3-5 3-5 1-7 4-3 3-4 3-1-1 1-4 2-2-7-3-3 0-3-1t3-2q12-3 18-4z"
+     id="star" />
+</defs>
+<use
+   id="use7"
+   style="fill:#f9eced"
+   xlink:href="#star"
+   fill="#f9eced" />
+<!-- Red circle which will be moved along the motion path. -->
+<circle
+   id="circle9"
+   fill="#f9eced"
+   r="6"
+   cy=""
+   cx="">
+  <!-- Define the motion path animation -->
+  <animateMotion
+     repeatCount="indefinite"
+     dur="24s">
+    <mpath
+       xlink:href="#star" />
+  </animateMotion>
+</circle>
+<!-- Red circle which will be moved along the motion path. -->
+<circle
+   id="circle11"
+   fill="#9f353a"
+   r="5"
+   cy=""
+   cx="">
+  <!-- Define the motion path animation -->
+  <animateMotion
+     repeatCount="indefinite"
+     dur="24s">
+    <mpath
+       xlink:href="#star" />
+  </animateMotion>
+</circle>
+<text
+   id="text13"
+   style="font-size:24px; writing-mode:tb; fill:none; stroke:#d98c90;"
+   y="-66"
+   x="196">
+				♪電資學士班♪
+			  <animateMotion
+   repeatCount="indefinite"
+   dur="24s">
+  <mpath
+     xlink:href="#star" />
+</animateMotion>
+</text>
+
+		  Sorry, your browser does not support inline SVG.
+		</svg>
