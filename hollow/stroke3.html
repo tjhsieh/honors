@@ -1,0 +1,38 @@
+<!--
+https://www.geeksforgeeks.org/css-font-border/
+
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
+-->
+
+<!DOCTYPE html>
+<html> 
+    
+<head> 
+    <title></title>
+    <!-- Style to use text-stroke property -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+        .GFG {
+            margin: -10px auto; 
+            font-family: 'Noto Serif JP', serif;
+            color: white; 
+            font-size: 110px;
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color:  #AA0000;
+            
+            animation: 6s pulsate infinite;
+        }
+
+        @keyframes pulsate {
+          20% { text-shadow: 0 0 3px #FF0000, 0 0 6px #0000FF; font-size: 128px;}
+          50% { text-shadow: 0 0 5px #0000EE, 0 0 36px #FF0000;  font-size: 256px;}
+        }
+    </style> 
+</head> 
+
+<body> 
+    <p class="GFG">電資學士班</p> 
+</body> 
+
+</html>                  
